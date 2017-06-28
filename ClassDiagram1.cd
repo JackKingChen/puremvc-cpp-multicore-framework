@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PureMVC::UniqueLock&lt;_Lockable&gt;" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAACABAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\PureMVC.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Mutex" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAAAAAAEACAAAAAAAAAAAAAAAgAAAAAQA=</HashCode>
+      <FileName>include\PureMVC\PureMVC.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::FastMutex" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAAAAAAEACAAAAAAACABAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\PureMVC.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Thread" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAQCAAQAAIAFgAAAKAAAQAAAAIAAAAAAgAhAACAA=</HashCode>
+      <FileName>include\PureMVC\PureMVC.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::InstanceMap&lt;_Type, _Name&gt;" Collapsed="true">
+    <Position X="10.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCIEAAAAQABAAAAEAAICAACEAAAAAAAACAAAAAgIAAA=</HashCode>
+      <FileName>src\PureMVC\Common.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Notification" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAEQAAQAAAAABAAAARAAQAAAAAAkAAAAEAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Observer\Notification.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Notifier" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAiAAUAAAAAAAAAAABAAAAkAAAAgAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Observer\Notifier.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Observer&lt;_Method, _Context&gt;" Collapsed="true">
+    <Position X="3.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAMAAAAAABAAQAAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Observer\Observer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::DelegateCommand&lt;_Action&gt;" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Command\DelegateCommand.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::MacroCommand" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEAAAEgAAAAAAAAAAAAAQgABAAAAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Command\MacroCommand.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::SimpleCommand" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAABAAAAAEAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Command\SimpleCommand.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Facade" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAQAAIBCIAkAAwQAACQAAoSAAAQAjCAkAkAFABA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Facade\Facade.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Mediator" Collapsed="true">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAAQAIAAAAAAAACgQAAAAIAAAkAACAAkA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Mediator\Mediator.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Iterator&lt;_Type, _IteratorType, _ConverterType&gt;" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAIAAAAAgEAACAAAAAAAgAAAAAAAgBQQAgAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Iterator\Iterator.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::StdContainerAggregate&lt;_ContainerType, _ValueType, _IteratorType, _ConverterType, _ContainerRangeType&gt;" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAAAAgAAAAAAAAQCAAAAAAAAAAAAAgAgEQAAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Iterator\Iterator.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::Proxy" Collapsed="true">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQACAADAAAAQAAAAAAAAAAAAQAAAAAAACgAAAAAEA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Proxy\Proxy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Patterns::FacadeNotifier" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\Patterns\Facade\Facade.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Core::Controller" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQBiAAEAAAAABAAAEIAAAAQgCCIkAgCFAAA=</HashCode>
+      <FileName>include\PureMVC\Core\Controller.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Core::Model" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABEAAAAIBAAAEEAAAAAAAAAACAAAQgiAgkAgAEABA=</HashCode>
+      <FileName>include\PureMVC\Core\Model.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PureMVC::Core::View" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAQACABAIAsAAWAQAAAAAgQBAAQgCAAkCAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Core\View.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PureMVC::Interfaces::IAggregate&lt;_Type&gt;" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IAggregate.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::ICommand" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\ICommand.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IController" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAIAAgCFAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IController.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IFacade" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAIAAIAgAAQAAAAAAA4AAAAAAgAAAAgAFAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IFacade.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IIterator&lt;_Type&gt;" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAoAAAAgAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IIterator.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IMediator" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAIAAAAAAAAAAQAAAAAAAAEAICAAgA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IMediator.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IModel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAIAAAAAAAAAAAAAAAACAAAAAgAAAAAEEAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IModel.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::INotification" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEQAAgAAAAABAAAARAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\INotification.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::INotifier" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAUAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\INotifier.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IObserver" Collapsed="true">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IObserver.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IProxy" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAIAAAQAAAAAAAAAAAAQAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IProxy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Interfaces::IView" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYACAAAIAoAAQAAAAAAAgAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Interfaces\IView.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Patterns::DefaultIteratorConverter&lt;_Type, _IteratorType&gt;" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Iterator\Iterator.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PureMVC::Patterns::StdContainerRange&lt;_Container, _IteratorType&gt;" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\Patterns\Iterator\Iterator.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="std::size_t" Collapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\PureMVC\PureMVC.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="puremvc_mutex_t" Collapsed="true">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\PureMVC.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="puremvc_fast_mutex_t" Collapsed="true">
+    <Position X="16" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\PureMVC.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="puremvc_thread_t" Collapsed="true">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\PureMVC.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="InstanceMapObserver" Collapsed="true">
+    <Position X="13.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\Common.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="InstanceMapController" Collapsed="true">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\Common.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="InstanceMapModel" Collapsed="true">
+    <Position X="13.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\Common.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="InstanceMapView" Collapsed="true">
+    <Position X="10.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\Common.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="InstanceMapFacade" Collapsed="true">
+    <Position X="10.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\PureMVC\Common.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

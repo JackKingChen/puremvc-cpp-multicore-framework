@@ -14,30 +14,54 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSuite", "testsuite\Test
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50} = {8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unitest", "unitest\unitest.vcxproj", "{BBCF968A-F465-4864-ACD7-0763BE062701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug Share|Win32 = Debug Share|Win32
 		Debug Static|Win32 = Debug Static|Win32
+		Debug|Win32 = Debug|Win32
 		Release Share|Win32 = Release Share|Win32
 		Release Static|Win32 = Release Static|Win32
+		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Debug Share|Win32.ActiveCfg = Debug Share|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Debug Share|Win32.Build.0 = Debug Share|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Debug Static|Win32.ActiveCfg = Debug Static|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Debug Static|Win32.Build.0 = Debug Static|Win32
+		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Debug|Win32.ActiveCfg = Debug Static|Win32
+		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Debug|Win32.Build.0 = Debug Static|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Release Share|Win32.ActiveCfg = Release Share|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Release Share|Win32.Build.0 = Release Share|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Release Static|Win32.ActiveCfg = Release Static|Win32
 		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Release Static|Win32.Build.0 = Release Static|Win32
+		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Release|Win32.ActiveCfg = Release Static|Win32
+		{8E6DD691-B2F0-4567-8A4D-92DFDE03CB50}.Release|Win32.Build.0 = Release Static|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Debug Share|Win32.ActiveCfg = Debug Share|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Debug Share|Win32.Build.0 = Debug Share|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Debug Static|Win32.ActiveCfg = Debug Static|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Debug Static|Win32.Build.0 = Debug Static|Win32
+		{A0E5F375-EE50-414B-A083-C879493B47B3}.Debug|Win32.ActiveCfg = Debug Static|Win32
+		{A0E5F375-EE50-414B-A083-C879493B47B3}.Debug|Win32.Build.0 = Debug Static|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Release Share|Win32.ActiveCfg = Release Share|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Release Share|Win32.Build.0 = Release Share|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Release Static|Win32.ActiveCfg = Release Static|Win32
 		{A0E5F375-EE50-414B-A083-C879493B47B3}.Release Static|Win32.Build.0 = Release Static|Win32
+		{A0E5F375-EE50-414B-A083-C879493B47B3}.Release|Win32.ActiveCfg = Release Static|Win32
+		{A0E5F375-EE50-414B-A083-C879493B47B3}.Release|Win32.Build.0 = Release Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Debug Share|Win32.ActiveCfg = Debug Share|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Debug Share|Win32.Build.0 = Debug Share|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Debug Static|Win32.ActiveCfg = Debug Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Debug Static|Win32.Build.0 = Debug Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Debug|Win32.ActiveCfg = Debug Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Debug|Win32.Build.0 = Debug Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Release Share|Win32.ActiveCfg = Release Share|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Release Share|Win32.Build.0 = Release Share|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Release Static|Win32.ActiveCfg = Release Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Release Static|Win32.Build.0 = Release Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Release|Win32.ActiveCfg = Release Static|Win32
+		{BBCF968A-F465-4864-ACD7-0763BE062701}.Release|Win32.Build.0 = Release Static|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -61,13 +61,13 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">$(SolutionDir)$(Configuration) 2010\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">Microsoft Visual Studio 2010\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">build\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">$(SolutionDir)$(Configuration) 2010\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">Microsoft Visual Studio 2010\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">build\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Share|Win32'">$(SolutionDir)$(Configuration) 2010\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Share|Win32'">Microsoft Visual Studio 2010\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Share|Win32'">build\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Share|Win32'">$(SolutionDir)$(Configuration) 2010\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Share|Win32'">Microsoft Visual Studio 2010\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Share|Win32'">build\$(Configuration)\</IntDir>
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug Share|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug Share|Win32'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug Share|Win32'" />

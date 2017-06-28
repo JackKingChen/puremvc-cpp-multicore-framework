@@ -1,0 +1,22 @@
+*.sdf
+*.suo
+*.vcxproj.user
+*.opensdf
+*.rar
+build
+build/
+ipch
+ipch/
+Debug
+Debug/
+Release
+Release/
+Microsoft Visual Studio 2010
+Microsoft Visual Studio 2010/
+Debug Share 2010
+Debug Share 2010/
+bin
+bin/
+lib
+iib/
+

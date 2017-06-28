@@ -176,10 +176,10 @@
     <ClCompile Include="src\PureMVC\Core\Controller.cpp">
       <Filter>src\PureMVC\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\PureMVC\Core\Model.cpp">
+    <ClCompile Include="src\PureMVC\Core\View.cpp">
       <Filter>src\PureMVC\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\PureMVC\Core\View.cpp">
+    <ClCompile Include="src\PureMVC\Core\Model.cpp">
       <Filter>src\PureMVC\Core</Filter>
     </ClCompile>
   </ItemGroup>
@@ -187,5 +187,8 @@
     <ResourceCompile Include="src\PureMVC\Resource\PureMVC.rc">
       <Filter>src\PureMVC\Resource</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{30480a0b-1fc2-4bec-b068-e5c53b77d7ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unitest">
+      <UniqueIdentifier>{5f4ab027-5e00-417e-8aef-61e58cea1ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unitest\unitest_frame">
+      <UniqueIdentifier>{66d7676c-9b86-4658-8a9b-81ba79343f79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\host.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\host_console.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\host_os.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unittest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unittest_scoped.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="unitest\unitest_frame\unitest_control.cpp">
+      <Filter>unitest\unitest_frame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -243,6 +243,9 @@ copy "$(TargetDir)$(TargetName)dll.lib"  "$(ProjectDir)lib\vc"
   <ItemGroup>
     <ResourceCompile Include="src\PureMVC\Resource\PureMVC.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
